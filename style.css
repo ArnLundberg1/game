@@ -1,1 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+#map-container {
+  position: relative;
+  display: inline-block;
+}
+
+#map {
+  width: 800px;
+  height: auto;
+  border: 2px solid #333;
+}
+
+.unit {
+  width: 50px;
+  cursor: grab;
+  margin: 10px;
+}
+
+#units {
+  margin-top: 20px;
+}
+
+.alarm {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
 
